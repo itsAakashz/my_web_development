@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC SCHOOL</title>
+    <style>
+        body {
+            background-image: url(/web1.jpg);
+            background-size: 1400px 800px;
+        }
+
+        .nav {
+            
+            display: inline-block;
+        }
+
+        .nav li {
+            list-style-type: none;
+            float: right;
+            padding: 10px;
+            font-size: larger;
+        }
+        .nav li:hover{
+
+        text-decoration: underline;
+        background-color: aquamarine;
+        }
+
+        #logo img {
+            height: 60px;
+            width: 60px;
+            
+            position: absolute;
+            right: 34px;
+            top: 1px;
+            display: inline-block;
+
+
+        }
+
+        form {
+            
+            padding: 20px;
+            backface-visibility: var(20%);
+        }
+        h2{
+            padding: 8px;
+            margin-top:20%;
+        }
+        .form-group input{
+            width: 10cm;
+            padding: 6px; 
+            margin: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <div class="nav">
+                <li>Request call</li>
+                <li>Explore us</li>
+                <li>Home</li>
+            </div>
+        </ul>
+
+        <div id="logo">
+            <img src="/logo.png">
+        </div>
+
+    </header>
+    <form action="">
+        <h2>JOIN BEST SCHOOL IN SHEOHAR</h2>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+            <input type="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+            <input type="text" placeholder="Enter your class">
+        </div>
+        <div class="form-group">
+            <input type="submit">
+        </div>
+        
+    </form>
+</body>
+
+</html>
